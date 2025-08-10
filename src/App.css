@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,65 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  border-radius: 5px;
+}
+
+ul{
+  list-style-type: none;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* th{
+  font-size: smaller;
+  text-align: center;
+}
+td{
+  font-size: smaller;
+  text-align: center;
+}
+tr{
+  backgroundColor:#dfdfdfff;
+  width:100%;
+  display:flex;
+  justifyContent:space-between;
+  height:40px
+} */
+
+/* tr{
+} */
+
+/* tr:nth-child(even){
+      background-color: #e3e3e3;
+      
+    }
+     */
+    td{
+      padding-left: 10px;
+      background-color: #a83e3e;
+  overflow: auto;
+
+}
+table *{
+  font-size: 15px;
+  border-radius: 0%;
+}
+.Link{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
 }
