@@ -22,7 +22,6 @@ async function Apicall() {
   } catch (error) {
     console.log(error);
   }
-
 }
 useEffect(()=>{
   Apicall()
@@ -30,7 +29,7 @@ useEffect(()=>{
 
 useEffect(()=>{
   // console.log(tabledata);
-  // console.log(tabledata?.data?.columns[0]);
+  // console.log(tabledata?.data?.columns[0]);  
 
 },[tabledata])
 
